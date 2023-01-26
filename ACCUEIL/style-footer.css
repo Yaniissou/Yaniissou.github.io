@@ -1,0 +1,113 @@
+/*Par Yanis et Gabriel */
+
+footer {
+    height: 400px;
+    background-color: #874dbd;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer iframe {
+    width: 404px;
+    height:255px ;
+    transition: all .4s ease;
+}
+
+footer iframe:hover {
+    filter: brightness(90%);
+    
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+.localisation {
+    
+    height: 400px;
+    width: 404px;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.localisation h2 {
+    text-align: center;
+    
+}
+
+.localisation div {
+    width: 300px;
+    
+    
+    background-color: rgba(169, 113, 221, 0.6);
+    margin-bottom: 3%;
+    border-radius: 50px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    width: 300px;
+    align-items: center;
+    
+    
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact .cadre {
+    background-color: rgba(169, 113, 221, 0.6);
+    margin-bottom: 4%;
+    margin-top: 40%;
+    border-radius: 50px;
+    width: 250px;
+    
+   
+}
+
+.contact .liens {
+    background-color: rgba(169, 113, 221, 0.6);
+    border-radius: 20px;
+    padding-left: 2%;
+    height: 180px;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 180px;
+    width: 300px;
+   
+    
+}
+
+footer span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 850px) {
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 800px;
+    }
+    .contact .cadre {
+        background-color: rgba(169, 113, 221, 0.6);
+        margin-bottom: 4%;
+        margin-top: -5%;
+        border-radius: 50px;
+        width: 250px;
+        
+       
+    }
+    
+}

@@ -1,0 +1,93 @@
+/*Par Gabriel */
+
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    
+    background-color: #874dbd;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  
+  }
+  
+  header a {
+   
+    color: #FFF;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    
+    border-radius: 15px;
+    transition: all 0.3s ease-in;
+  }
+  
+
+  
+  header a:hover {
+    background-color: #8140be;
+    transform: scale(115%);
+    transition: all 0.3s ease-in;
+   
+     }
+  
+  
+
+  header img {
+    width: 175px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+  
+i {
+   margin-right: 5px;
+}
+
+ 
+@media screen and (max-width: 650px) {
+    header a {
+      text-align: center;
+    }
+    
+    header .strategie {
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+       
+      }
+
+      header .social {
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+        
+      }
+    
+      header .ecologie {
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+        
+      }
+
+      header .logo {
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-basis: 100%;
+        flex-grow: 1;
+      }
+
+      
+  }
+
+

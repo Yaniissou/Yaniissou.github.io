@@ -1,0 +1,299 @@
+/*Par Gabriel */
+
+.strategie {
+    background-color: #8140be;
+    transform: scale(115%);
+}
+
+body {
+    background-image: url(../IMAGES/abstract-paint-pastel-purple-background-free-vector.png);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titre {
+    
+    background-color:rgba(169, 113, 221, 0.6); 
+    width: 40%;
+    margin: 3% auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 120px;
+   font-size: x-large;
+   text-transform: uppercase;
+   text-align: center;
+   box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+}
+
+main {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+
+    
+}
+
+main h2 {
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+.domaine {
+    width: 40%;
+    margin-right: 2%;
+    background-color:rgba(169, 113, 221, 0.6);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+}
+
+
+.domaine p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.domaine span {
+    font-weight: 600;
+}
+
+.domaine ul li {
+    padding-bottom: 1%;
+}
+
+section {
+    width: 56%;
+    margin-left: 2%;
+}
+
+section p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.domaine img {
+    margin-bottom:5%;
+    width: 90%;
+}
+
+.geo {
+    background-color: rgba(169, 113, 221, 0.6); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+    height: 400px;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+
+}
+
+.geo img {
+    width: 100%;
+    height: 280px;
+    margin-left: 5%;
+    transition: all 0.3s ease-in;
+    
+}
+
+.geo img:hover {
+    filter: brightness(80%);
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+.geo .content {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    width: 90%;
+}
+
+.geo p {
+    text-align: justify;
+     width: 60%;
+}
+
+.cibles {
+    background-color: rgba(169, 113, 221, 0.6); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+
+}
+
+.contenu {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contenu img {
+    width: 25%;
+    height: 150px;
+    
+}
+
+.contenu ul {
+    text-align: justify;
+}
+
+.edu, .indus, .medic {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    justify-content: space-around;
+}
+
+.edu {
+    height: 150px;
+}
+.contenu span {
+    font-weight: bold;
+}
+
+.contenu ul {
+    width: 50%;
+}
+
+
+main p, main ul{
+    font-size: 20px;
+}
+
+.intervention {
+    padding-top: 3%;
+    padding-left: 3%;
+}
+@media screen and (max-width: 1400px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .domaine {
+        display: flex;
+        width: 100%;
+        margin-bottom: 2%;
+        margin-right: 0;
+    }
+
+    .geo {
+        width: 100%;
+        margin-bottom: 4%;
+        height: 500px;
+        
+    }
+
+    .geo img {
+        margin-left: 0%;
+        margin-top: 5%;
+        
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .content p {
+        width: 100%;
+    }
+
+   .contenu {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   .cibles {
+    margin-bottom: 4%;
+    height: 800px;
+    
+   }
+
+   main p, main ul{
+    font-size: 15px;
+}
+
+.contenu img {
+    width: 25%;
+    height: 150px;
+    
+}
+
+.edu, .indus, .medic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+    justify-content: space-around;
+}
+
+.contenu p, .contenu ul {
+    width: 90%;
+}
+
+section {
+    width: 100%;
+    margin-left: 0;
+    
+}
+
+
+}
+
+@media screen and (max-width: 880px) {
+
+
+    .titre {
+        font-size: large;
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+
+    .edu, .indus, .medic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4%;
+        justify-content: space-around;
+    }
+
+    .indus {
+        margin-top: 10%;
+    }
+
+    .geo img {
+        height: 200px ;
+    }
+
+    .contenu img {
+        width: 35%;
+        height: 100px;
+        
+    }
+
+}
+
+
+   
+
